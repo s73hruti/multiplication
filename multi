@@ -1,8 +1,7 @@
 #include<stdio.h>
 void main()
-{ int x,y,m;
+{ int x,y;
   printf("Enter two no :");
   scanf("%d %d ",&x,&y);
-  m=x*y;
-  printf("Multipliction=%d",m);
+  printf("Multipliction=%d",x*y);
   }
